@@ -18,3 +18,8 @@ Run Docker image
 
 `docker run -d -p 8080:8080 -p 50000:50000 -v /opt/jenkins/data:/var/jenkins_home -t jenkins-dw-co-za`
 
+## Troubleshooting
+
+### Wrong volume permissions?
+
+`sudo chmod -R 777 /opt/jenkins`
