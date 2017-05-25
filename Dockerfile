@@ -10,6 +10,7 @@ RUN apt-get install -y nodejs
 RUN npm install -g typescript
 RUN npm install -g gulp
 RUN npm install -g istanbul
+RUN npm install -g tslint
 RUN npm install -g @angular/cli
 
 USER jenkins
