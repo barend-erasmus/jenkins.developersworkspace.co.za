@@ -13,4 +13,6 @@ RUN npm install -g istanbul
 RUN npm install -g tslint
 RUN npm install -g mocha
 
+RUN apt-get install sshpass
+
 USER jenkins
