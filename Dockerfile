@@ -17,4 +17,6 @@ RUN npm install -g mocha
 
 RUN npm install -g @angular/cli
 
+RUN npm install -g ssh-deployer
+
 USER jenkins
